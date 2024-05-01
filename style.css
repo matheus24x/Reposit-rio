@@ -45,6 +45,7 @@
     
     .profissao-imagem{
     width: 120px;
+    align-items: center;
     }
     .profissao-icone{
     width: 24px;
