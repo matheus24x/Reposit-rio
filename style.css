@@ -19,7 +19,7 @@
     font-size: 24px;
     }
     .profissao-imagem {
-    width: 25%;
+    width: 20%;
     }
     .profissao {
     background-image: linear-gradient(#7F27FF, #9F70FD);
@@ -44,8 +44,7 @@
     }
     
     .profissao-imagem{
-    width: 120px;
-    align-items: center;
+    width: 90px;
     }
     .profissao-icone{
     width: 24px;
