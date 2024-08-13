@@ -66,6 +66,35 @@
     .rodape{
     background-color: #9F70FD;
     text-align: center;
+    }
+    .rodape{
+    background-color: #9F70FD;
+    text-align: center;
     color:white;
     font-size: 25px;
+    }
+    .rodape-imagem{
+    height: 60px
+    padding: 12px0;
+    }
+    @media  (max-width: 600px){
+        .profissao-todos{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profissao-div{
+          width: 100%; 
+          max-width: 300px;
+          margin: 10px 0; 
+        }
+    }
+    .profissao-div:nth-last-of-type(1) {
+        margin: 0 auto;
+    }
+    @media (max-width: 768px) {
+        .profissao-todos {
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
     }
